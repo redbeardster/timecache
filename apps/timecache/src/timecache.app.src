@@ -1,0 +1,13 @@
+{application, timecache,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { timecache_app, []}},
+  {env, []}
+ ]}.
